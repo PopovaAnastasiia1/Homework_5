@@ -1,0 +1,281 @@
+@import url("https://fonts.cdnfonts.com/css/gilam");
+html {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Gilam", sans-serif;
+}
+.wrapper {
+  width: 1920px;
+  height: 4000px;
+  background-color: #171717;
+}
+header {
+  display: flex;
+}
+.logo {
+  padding: 37px 1026px 120px 230px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 218px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e4b564;
+  margin: 46px 230px 120px 0px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #e4b564;
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px 25px;
+}
+
+main {
+  margin: 0px 230px;
+}
+
+.content {
+  margin-bottom: 161px;
+}
+
+.content_title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.content_text {
+  width: 1182px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 41px 0px;
+}
+
+.content_item {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+}
+
+.first_content_item,
+.second_content_item,
+.third_content_item,
+.fourth_content_item,
+.fifth_content_item {
+  height: 468px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.first_content_item {
+  background-color: #634f2c;
+}
+
+.second_content_item {
+  background: #b4a385;
+  grid-column: 2/4;
+}
+
+.second_content_item p {
+  width: 380px;
+  text-align: center;
+}
+
+.third_content_item {
+  background-color: #e4b564;
+}
+
+.fourth_content_item {
+  background-color: #635a4a;
+  grid-column: 1/3;
+}
+
+.fifth_content_item {
+  background-color: #b08c4d;
+  grid-column: 3/5;
+}
+
+.desc_text {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 94px;
+}
+
+.desc {
+  margin-bottom: 191px;
+}
+
+.desc_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 0.4fr 0.6fr 1fr;
+  gap: 30px;
+}
+
+.first_desc_item,
+.second_desc_item,
+.third_desc_item,
+.fourth_desc_item,
+.fifth_desc_item,
+.sixth_desc_item,
+.seventh_desc_item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 44px 0px 0px 50px;
+}
+
+.first_desc_item {
+  background-color: #0e0e0e;
+  grid-row: 1/3;
+}
+
+.second_desc_item {
+  background-color: #242424;
+  grid-row: 1/4;
+}
+
+.third_desc_item {
+  background-color: #1f1f1f;
+  height: 255px;
+}
+
+.fourth_desc_item {
+  background-color: #1f1f1f;
+  grid-row: 3/6;
+}
+
+.fifth_desc_item {
+  background-color: #e4b564;
+  grid-row: 4/6;
+  color: #000000;
+}
+
+.sixth_desc_item {
+  background-color: #0e0e0e;
+  grid-row: 2/5;
+}
+
+.seventh_desc_item {
+  background-color: #0a0909;
+  grid-row: 5/6;
+}
+
+.aside {
+  width: 1920px;
+  height: 1054px;
+  background-color: #0e0e0e;
+  margin-bottom: 239px;
+}
+
+.aside_title {
+  padding: 159px 230px 61px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.aside_title_text {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside_title_button {
+  width: 180px;
+  height: 50px;
+  border: 1px solid #e4b564;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside_title_button a {
+  text-decoration: none;
+  color: #e4b564;
+}
+
+.aside_item {
+  margin: 0px 230px 239px;
+  display: grid;
+  grid-template-columns: 487px 487px 487px;
+  grid-template-rows: 391px 391px 391px;
+}
+
+.first_aside_item,
+.third_aside_item,
+.fourth_aside_item,
+.fifth_aside_item,
+.sixth_aside_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.first_aside_item {
+  background-color: #634f2c;
+  grid-column: 1;
+}
+
+.second_aside_item {
+  background-color: rgba(232, 210, 171, 0.76);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.second_aside_item p{
+  font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.third_aside_item {
+  background-color: #e4b564;
+}
+
+.fourth_aside_item {
+  background-color: #635a4a;
+}
+
+.fifth_aside_item {
+  background-color: #b08c4d;
+}
+
+.sixth_aside_item {
+  background-color: #634f2c;
+}
